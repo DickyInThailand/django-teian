@@ -1,0 +1,13 @@
+
+{% extends 'te_app1/base.html' %}
+
+{% block content %}
+
+<!-- <h1> 最適な英単語帳は{{result}}で、対象の単語{{totalnum}}語中{{numofmatch}}語含んでいます。{{portion}}% </h1> -->
+<h1> {{result_book}}{{result}}</h1>
+<a href=" {{ url_ama }} " >購入</a>
+<br><br>
+<a href="{% url 'index' %}" class="btn btn-primary"> home </a>
+
+{% endblock %}S
+

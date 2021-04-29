@@ -1,0 +1,613 @@
+ICT429 Management of IT ServicesWeek 2: Service Strategy
+
+
+College of Digital Innovation Technology, 
+
+Information Technology Service Science
+
+
+
+ITIL Service Management (v3)
+
+
+ITILDiagram1
+
+Core ITIL v3 Library
+
+
+Service Strategy (SS)
+
+Service Design (SD)
+
+Service Transition (ST)
+
+Service Operations (SO) 
+
+Continual Service Improvement (CSI)
+
+
+Cover Service Strategy
+Cover Service Design
+Cover Service Transition
+Cover ITIL_Service Operation
+Cover Continual Service Imp
+
+Key links, inputs & outputs of the service 
+lifecycle stages
+
+
+*SLP = Service Level Package
+
+*SDP = Service Design Package 
+
+
+
+Service Strategy
+
+
+A process to enable Service Providers
+
+Act and think in a strategic manner and achieve their 
+goals and objectives by using Service Assets
+
+?To support the organization in transforming service 
+management into strategic asset
+?To see relationship between systems, processes, 
+functions, services and business models.
+
+
+
+
+…… and the organization’s vision
+
+?Cost Effectiveness
+?Value to the customer
+?Standardized Process
+?Value Creation
+
+
+
+
+
+
+
+
+
+
+Service Strategy Objectives
+
+
+
+Service Assets
+
+
+?Resources--direct input parameter for the 
+service delivery
+?People 
+?Information
+?Applications
+?Infrastructure
+?Finances
+
+
+
+?Capabilities--skills and help the organization 
+to develop and control the resources in order to 
+generate added value
+?Management
+?Organization
+?Processes
+?Knowledge
+?Skills
+
+
+
+
+
+
+
+
+Resources and Capabilities are strategic assets of 
+each service provider to enable goods or services to 
+be produced
+
+
+
+Service Provider
+
+
+Deliver services to one or more external or internal 
+customers
+
+Types:
+
+?Type-I: Internal Service Provider
+?Type-II: Shared Service Provider
+?Type-III: External Service Provider
+
+
+
+
+
+
+Service Provisioning Model
+
+
+?Managed Service: where a business unit requiring 
+a service fully funds the provision of that service for 
+itself
+?Shared Service:the provisioning of multiple 
+services to one or more business units through 
+shared infrastructure and resources
+?Utility: services are provided on the basis of how 
+much is required by each customer, how often, and 
+at what times the customer needs them.
+
+
+
+
+Principles of Service Strategy
+
+
+?Value Creation
+?Utility 
+?Warranty
+
+
+
+?4 P’s of SS
+?Perspective 
+?Position
+?Plan
+?Pattern
+
+
+
+?Service Structure
+?Value Chain
+?Value Network
+
+
+
+
+
+
+
+Value Creation
+
+
+?Utility
+?Functionality of service or product
+?Satisfy specific need
+?What is does?
+?What a customer gets?
+?Increases performance
+
+
+
+?Warranty
+?A promise or commitment
+?Meets agreed requirements
+?Concerns availability, capacity, 
+continuity and security
+?Reduces fluctuation in service 
+delivery
+
+
+
+
+
+
+
+
+ITIL Version 3 Chapters
+
+Value Creation
+
+
+vlcsnap-2010-07-23-04h02m12s42.png
+
+4 P’s of Service Strategy
+
+
+?Perspective: the distinctive vision and direction
+?Position: the basis on which the provider will 
+compete
+?Plan: how the provider will achieve their vision
+?Pattern: the fundamental way of doing things ?
+distinctive patterns in decisions and actions over 
+time.
+
+
+
+
+Vision and mission “ We will be a best-in-
+class service provider for our law firm”
+
+
+Policies and Distinctiveness
+
+“Differentiate ourselves through our 
+attorney centric service offerings and 
+legal industry know-how”
+
+
+Ongoing actions and adjustments
+
+“Decisions on portfolio, technology. 
+Sourcing, training and promotions are to 
+be consistent with our position”
+
+
+Method and execution
+
+“Achieve this position through will 
+understood steps, and by an agreed date 
+budget”
+
+
+Strategy 
+
+
+
+Service Structure
+
+
+?Value Chain
+
+
+The service provider acquires goods and services from its 
+suppliers and assembles them to produce new services to 
+meet the needs of the business
+
+?Value Network
+
+
+Webof relationships that generates tangible and intangible 
+value through complex dynamic exchanges through two or 
+more organizations
+
+
+
+Value Chain and Value Network
+
+
+
+Strategy Generation
+
+
+?Define Market
+?Understand Customer
+?Understand Opportunity
+?Clarify and Visualize
+
+
+
+?Develop Offerings
+?Understand Market Space
+?Develop Outcomes
+?Classify and Visualize
+
+
+
+
+
+
+
+Strategy Generation(cont)
+
+
+?Develop Strategic Assets
+?Develop and Maintain Service 
+Assets
+?Understand Customer’s Assets
+?Map Assets
+?Design, Develop, Operate Services
+?Controls Costs
+
+
+
+?Prepare for Execution
+?Set Objectives
+?Define Critical Success Factors
+?Prioritize Investments
+?Explore Business Potential
+?Align to Customer needs
+
+
+
+
+
+
+
+Service Strategy Processes
+
+
+?Financial Management
+?Service Portfolio Management
+?Demand Management
+
+
+
+
+Financial Management
+
+
+Covers the functions and process responsible for 
+managing IT Service Provider’s budgeting, accounting 
+and charging requirements
+
+?To provide quantification of value of Assets and IT 
+Services and qualification of operational forecasting
+?To help identify, document and agree value of 
+current and future services
+
+
+
+
+Financial Management Concepts
+
+
+“As a Strategic Tool”
+
+?Improves decision making capabilities
+?Supports financial change assessment
+?Substantiate the value of various services as 
+contained in Service Portfolio
+?Ensure Financial Compliance and Control
+?Visualize costs of operational control
+?Track “Value Capture and Creation”
+
+
+
+
+Business Case
+
+
+?Supports Decision Making?Where do we need to spend?
+?Business Impact?Where are we spending?
+?Improved Reliability
+?Improved Maintainability
+?Improved Services
+
+
+
+?Business Objectives?Insight into cost of services
+?Lower Cost
+?Increased Customer Satisfaction
+?Improved Marketing Image
+
+
+
+
+
+
+
+Service Valuation
+
+
+?Service provisioning value (Pain)
+?The cost to IT related to provisioning a service
+?How much is IT spending on IT???
+?“Relatively easy to calculate”
+
+
+
+
+
+?Service value potential (Gain)
+?Value addition based on customer’s perception
+?How much customer earning from IT use????
+?“More Challenging to calculate”
+
+
+
+
+
+
+
+Financial Management Key Process Activities
+
+
+?Budgeting
+?How much “money” is needed to deliver and support 
+IT services against demand
+
+
+
+?Accounting
+?Keeping track of where, when, how, when and why 
+and by whom “money” is being spent
+
+
+
+?Charging
+?Optionally recovering some of the “money” incurred 
+with the provisioning of IT services
+
+
+
+
+
+
+
+Service Portfolio Management
+
+
+?Dynamic method for controlling service management 
+investments throughout the enterprise and actively 
+managing their value.
+?The aim of this is to turn service management into 
+strategic assets
+
+
+?Define:inventory services, ensure business cases and validate portfolio data
+?Analyze: maximize portfolio value, align and prioritize and balance supply and 
+demand
+?Approve: finalize proposed portfolio, authorize services and resources
+?Charter: communicate decisions, allocate resources and charter services.
+
+
+
+
+
+
+Service Portfolio Management
+
+
+?Why should customers buy this service?
+?Why should they buy it from us?
+?What form does the pricing structure take ?or how 
+does the refund system work?
+?What are our strengths and weaknesses, priorities and 
+risks?
+?How should we apply our resources and capabilities?
+
+
+
+
+Service Portfolio
+
+
+?The complete set of services that are managed 
+by a service provider
+?The service portfolio is used to manage entire 
+lifecycle of all services, and includes three 
+categories
+?Service pipeline 
+?Proposed or in development 
+
+
+
+?Service catalogue
+?Live or available for development
+
+
+
+?Retired Services
+?Services no longer offered
+
+
+
+
+
+
+
+
+
+
+Service Portfolio
+
+
+Services Proposed or in 
+development
+
+
+Services actively 
+delivered
+
+
+Retired Services
+
+
+“Planning and Managing Services from Cradle to Grave”
+
+
+
+Service Portfolio and Service Catalogue
+
+
+
+Demand Management
+
+
+?To understand and influence customer demand for 
+services
+?To provide the capacity to meet these demands
+?What if ….
+?You have too much capacity (over-capacity)
+?You don’t have enough capacity (under-capacity)
+
+
+
+
+
+….to meet customer demands????
+
+
+
+Demand Management + Supply
+
+
+?Supply and demand is and economic model based 
+on price, quality and quantity in a market
+?In a competitive market, price will function to 
+equalize
+?The quality and quantity demanded by customer
+?The quality and quantity supplied by service provider
+
+
+
+
+
+….resulting in an equilibrium of price, quality and 
+quantity…
+
+
+
+vlcsnap-2010-07-22-17h26m14s81.png
+Price
+
+
+Demand
+Supply
+Quantity
+
+
+
+Demand Management Challenges
+
+
+?Poorly managed “demand and supply” is a source of risk
+?Over-capacity
+?Planned
+?Unplanned
+
+
+
+?Insufficient capacity
+?Simultaneous demand and delivery
+?Influencing demand “yes”
+?Completely controlling demands “no”
+
+
+
+
+Demand Management Challenges(Cont)
+
+
+?Consumption and production of services
+?Tightly coupled
+
+
+
+?Productive capacity of resources adjusted to:
+?Demand Forecasts
+?Demand Patterns
+
+
+
+?Some types of capacity can be quickly increased
+?Increased
+?Decreased
+
+
+
+
+
+
+
+C:\Documents and Settings\KZ-Sr CSE\Desktop\SS\itil_svcdelivery_map.jpg
+
+MPj04331650000[1]
+

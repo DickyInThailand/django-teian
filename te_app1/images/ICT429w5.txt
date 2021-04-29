@@ -1,0 +1,907 @@
+WEEK.NO 5ITILSERVICETRANSITION
+
+
+BasedonITILv3ServiceTransitionpublication
+
+Asst.ProfThossaporn Thossansin
+
+February 2021
+
+
+
+Topics
+
+
+Service 
+Transition
+
+
+Introduction
+
+
+Servicemanagementasapractice
+
+
+ServiceTransitionprinciples
+
+ServiceTransitionprocesses
+
+ServiceTransitioncommonoperationactivities
+
+OrganizingforServiceTransition 
+Technology considerations 
+ImplementingServiceTransition
+
+Challenges,criticalsuccessfactors andrisks
+
+
+
+ServiceTransition
+
+
+Introduction
+
+
+Overview
+
+
+Context
+
+
+Goalandscope
+
+
+Usage
+
+
+Service 
+managementasa 
+practice
+
+
+Whatisservice 
+management
+
+
+Whatare services
+
+
+Functionsand 
+processesacross 
+the Lifecycle
+
+
+Servicetransition 
+fundamentals
+
+
+ServiceTransition 
+principles
+
+
+Principlessupporting
+
+
+ServiceTransition
+
+
+PoliciesforService 
+Transition
+
+
+ServiceTransition 
+processes
+
+
+Transitionplanning 
+andsupport
+
+
+Change 
+Management
+
+
+Serviceassetand 
+configuration 
+management
+
+
+Releaseanddeploymentmanagement
+
+
+Servicevalidation 
+andtesting
+
+
+Evaluation
+
+
+Knowledge 
+management
+
+
+Service Transition 
+commonoperation 
+activities
+
+
+Managing 
+communications and 
+commitment
+
+
+Managing 
+organizationand 
+stakeholderchange
+
+
+Stakeholder 
+management
+
+
+Organizingfor 
+ServiceTransition
+
+
+Genericroles
+
+
+Organizational 
+contextfor 
+transitioning a 
+service
+
+
+Organizationmodels 
+to supportService 
+Transition
+
+
+ServiceTransition 
+relationshipwith 
+otherlifecycle 
+stages
+
+
+Technology 
+considerations
+
+
+Knowledge 
+managementtools
+
+
+Collaboration
+
+
+Configuration
+
+
+Managementsystem
+
+
+Implementing 
+ServiceTransition
+
+
+Stagesof 
+introducingService 
+Transition
+
+
+Challenges,critical 
+successfactorsand 
+risks
+
+
+Challenges
+
+
+Criticalsuccess 
+factors
+
+
+Risks
+
+
+ServiceTransition 
+underdifficult 
+conditions
+
+
+SEC.-II
+
+
+
+Introduction
+
+
+•Goal:
+•toassistorganizationsseekingtoplanandmanageservice 
+changes and deploy service releases into the production 
+environmentsuccessfully
+
+
+
+•Scope:
+•provides guidance for the development and improvement of 
+capabilitiesfortransitioningnew andchangedservicesintothe 
+production environment, including release planning building, 
+testing,evaluationanddeployment
+
+
+
+
+
+
+
+Introduction
+
+
+•Benefits
+•Enableprojectstoestimatethecost,timing,resourcerequirementand
+
+
+
+
+
+risksassociatedwiththeServiceTransitionstagemoreaccurately
+
+•Resultinhighervolumesof successfulchange
+•Be easierforpeopleto adoptandfollow
+•EnableService Transitionassetstobesharedandreusedacross 
+projectsandservices
+•Reducedelaysfromunexpectedclashesanddependencies,e.g.in
+
+
+
+
+testenvironments
+
+•ReducetheeffortspentonmanagingtheService Transitiontestand 
+pilotenvironments
+•ImproveexpectationsettingforallstakeholdersinvolvedinService 
+Transitionincludingcustomers,users,suppliers,partnersandprojects
+•Increaseconfidencethattheneworchangedservicecanbedelivered 
+tospecificationwithoutunexpectedlyaffectingotherservicesor 
+stakeholders
+•Ensurethatneworchangedserviceswillbemaintainableandcost-
+effective.
+
+
+
+
+
+
+ServiceManagementasapractice
+
+
+•Aserviceisameansofdeliveringvaluetocustomersbyfacilitatingoutcomescustomerswanttoachievewithouttheownershipofspecificcostsandrisks
+•ServiceManagementisasetofspecializedorganizationalcapabilitiesforprovidingvaluetocustomersintheformofservices.
+
+
+
+
+FunctionsandProcess
+
+
+•Functions:
+•unitsoforganizationsspecializedtoperformcertaintypesofworkand
+
+
+
+
+
+responsibleforspecificoutcomes
+
+•self-contained,withcapabilitiesandresourcesnecessaryfortheir 
+performanceandoutcomes
+•havetheirownbodyofknowledge,whichaccumulatesfrom 
+experience
+•providestructureandstabilitytoorganizations.
+
+
+•Process
+•examplesofclosed-loopsystemsbecausetheyprovidechangeand 
+transformationtowardsagoal,andutilizefeedbackforself-reinforcing 
+andself-correctiveaction
+•Characteristics:
+•Measurable
+•Specificresults
+•Customers
+•Respondsto specificevent
+
+
+
+
+
+
+
+
+
+
+Servicetransitionfundamentals
+
+
+•Purpose
+•Planandmanagethecapacityandresourcesrequiredtopackage, 
+build,testanddeployareleaseintoproductionandestablishthe 
+servicespecifiedinthecustomerandstakeholderrequirements
+•Provideaconsistentandrigorousframeworkforevaluatingtheservice 
+capabilityandriskprofilebeforeaneworchangedserviceisreleased 
+or deployed
+•Establishandmaintaintheintegrityofallidentifiedserviceassetsand
+
+
+
+
+
+configurationsastheyevolvethroughtheService Transitionstage
+
+•Providegood-qualityknowledgeandinformationsothatchange, 
+ReleaseandDeploymentManagementcanexpediteeffective 
+decisionsaboutpromotingareleasethroughthetestenvironments 
+andintoproduction
+•Provideefficientrepeatablebuildandinstallationmechanismsthatcan 
+beusedtodeployreleasestothetestandproductionenvironments 
+andberebuiltif requiredto restoreservice
+•Ensurethattheservicecanbemanaged,operatedandsupportedin 
+accordancewiththerequirementsandconstraintsspecifiedwithinthe 
+ServiceDesign.
+
+
+
+
+
+
+Servicetransitionfundamentals
+
+
+•Goals
+•Setcustomerexpectationson howtheperformanceanduseofthe 
+neworchangedservicecanbeusedtoenablebusinesschange
+•Enablethebusinesschangeprojectorcustomertointegratea 
+releaseintotheirbusinessprocessesandservices
+•Reducevariationsin thepredictedandactualperformanceofthe
+
+
+
+
+
+transitionedservices
+
+•Reducetheknownerrorsandminimizetherisksfromtransitioning 
+theneworchangedservicesintoproduction
+•Ensurethattheservicecanbeusedinaccordancewiththe 
+requirements and constraints specified within the service 
+requirements.
+
+
+
+
+
+
+Servicetransitionfundamentals
+
+
+•Objectives
+•Plan andmanagetheresourcestoestablishsuccessfullyanewor 
+changed service into production within the predicted cost, quality 
+andtimeestimates
+•Ensurethereis minimalunpredictedimpactontheproduction 
+services,operationsandsupportorganization
+•Increase the customer, user and Service Management staff 
+satisfaction with the Service Transition practices including 
+deploymentoftheneworchangedservice,communications, 
+releasedocumentation,trainingandknowledgetransfer
+•Increaseproperuseoftheservicesandunderlyingapplications 
+andtechnologysolutions
+•Provideclearandcomprehensiveplansthatenablethecustomer 
+and business change projects to align their activities with the 
+ServiceTransitionplans.
+
+
+
+
+
+
+
+Servicetransitionprinciples
+
+
+1.DefineandimplementaformalpolicyforServiceTransition
+2.ImplementallchangestoservicesthroughServiceTransition
+3.Adoptacommonframeworkandstandards
+4.Maximizere-useofestablishedprocessesandsystems
+5.Align ServiceTransitionplanswiththebusiness needs
+6.Establish andmaintainrelationships withstakeholders
+7.Establisheffectivecontrolsanddisciplines
+8.Providesystemsforknowledgetransferanddecisionsupport
+9.Planrelease anddeploymentpackages
+10.Anticipateandmanagecoursecorrections
+11.ProactivelymanageresourcesacrossServiceTransitions
+12.Ensureearlyinvolvementintheservicelifecycle
+13.Assurethequality oftheneworchangedservice
+14.ProactivelyimprovequalityduringServiceTransition
+
+
+
+
+Servicetransitionprocesses
+
+
+•Transitionplanningandsupport
+•ChangeManagement
+•Serviceassetandconfigurationmanagement
+•Releaseanddeploymentmanagement
+•Servicevalidationandtesting
+•Evaluation
+•Knowledgemanagement
+
+
+
+
+Transitionplanningandsupport
+
+
+•Purpose:
+•Planappropriatecapacityandresourcestopackagearelease, 
+build, release, test, deploy and establish the new or changed 
+serviceintoproduction
+•ProvidesupportfortheServiceTransitionteamsandpeople
+•Planthechangesrequiredin amannerthatensurestheintegrityof 
+all identified customer assets, service assets and configurations 
+canbemaintainedastheyevolvethroughServiceTransition
+•EnsurethatServiceTransitionissues,risksanddeviationsare 
+reportedtotheappropriatestakeholdersanddecisionmakers
+•Coordinateactivitiesacrossprojects,suppliersandserviceteams
+
+
+
+
+
+whererequired.
+
+
+
+Transitionplanningandsupport
+
+
+•Objective
+•Plan and coordinate the resources to establish successfully a new 
+orchangedserviceintoproductionwithinthepredictedcost,quality 
+andtimeestimates
+•Ensurethatall partiesadoptthecommonframeworkof standard 
+re-usableprocessesand supportingsystemsinordertoimprove 
+the effectiveness and efficiency of the integrated planning and 
+coordinationactivities
+•Provideclearandcomprehensiveplansthatenablethecustomer 
+and business change projects to align their activities with the 
+ServiceTransitionplans.
+
+
+
+
+
+
+
+Transitionplanningandsupport
+
+
+•Scope
+•Incorporatingdesignandoperationrequirementsintothetransition
+
+
+
+
+
+plans
+
+•ManagingandoperatingTransitionPlanningandSupportactivities
+•MaintainingandintegratingServiceTransitionplansacrossthe 
+customer,serviceandcontractportfolios
+•ManagingServiceTransitionprogress,changes,issues,risksand
+
+
+
+
+deviations
+
+•QualityreviewofallServiceTransition,releaseanddeployment 
+plans
+•Managingandoperatingthetransitionprocesses,supporting
+
+
+
+
+systemsandtools
+
+•Communicationswithcustomers,usersandstakeholders
+•MonitoringandimprovingServiceTransitionperformance.
+
+
+
+
+
+
+Servicedesignpackage
+
+
+•The SDP includes the following information that is 
+requiredbytheServiceTransitionteam:
+•Theapplicableservicepackages(e.g.CoreServicePackage, 
+ServiceLevelPackage)
+•Theservicespecifications
+•Theservicemodels
+•Thearchitecturaldesignrequiredtodeliverthenew
+•orchangedServiceincludingconstraints
+•Thedefinition anddesignofeachreleasepackage
+•Thedetailed designofhowtheservicecomponentswillbe 
+assembledandintegratedintoa releasepackage
+•Releaseanddeploymentplans
+•TheServiceAcceptanceCriteria.
+
+
+
+
+
+
+
+Transitionstrategy
+
+
+•TheServiceTransitionstrategydefinestheoverallapproachto 
+organizing Service Transition and allocating resources. The 
+aspectsto consider are:
+•Purpose
+•Context
+•Scope
+•Applicablestandards,agreements,legal,regulatoryandcontractual
+
+
+
+
+
+requirements
+
+•Organizationsandstakeholdersinvolved
+•Framework
+•Criteria
+•Identificationofrequirementsandcontentoftheneworchanged 
+service
+•People
+•Approach
+•Deliverablesfromtransitionactivitiesincludingmandatoryandoptional documentationforeachstage
+
+
+
+
+
+
+PrepareforServiceTransition
+
+
+•TheServiceTransitionpreparationactivitiesinclude:
+•Reviewandacceptanceofinputsfromtheotherservicelifecycle 
+stages
+•Reviewandchecktheinputdeliverables,e.g.SDP,Service 
+AcceptanceCriteriaandevaluationreport
+•Identifying,raisingandschedulingRFCs
+•Checking that the configuration baselines are recorded in 
+ConfigurationManagementbeforethestartofServiceTransition
+•Checkingtransitionreadiness.
+
+
+
+
+
+
+
+Planningandcoordinatingservice 
+transition
+
+
+•PlanninganindividualServiceTransition
+•Integratedplanning
+•Adoptingprogramandprojectmanagementbest practices
+•Reviewingtheplans
+
+
+
+
+Changemanagement
+
+
+•Service change
+•Theaddition,modificationorremovalofauthorized,plannedor 
+supported service or service component and its associated 
+documentation.
+
+
+
+•SevenR
+•WhoRAISEDthechange?
+•WhatistheREASONforthechange?
+•Whatis theRETURN requiredfromthechange?
+•WhataretheRISKSinvolvedin thechange?
+•WhatRESOURCES arerequiredtodeliverthechange?
+•WhoisRESPONSIBLE forthebuild,testandimplementationofthe
+
+
+
+
+
+change?
+
+•WhatistheRELATIONSHIPbetweenthischangeandother 
+changes?
+
+
+
+
+
+
+Changemanagement
+
+
+•Purpose
+•Standardizedmethodsandproceduresareusedforefficientand
+
+
+
+
+
+prompthandlingofallchanges
+
+•Allchangestoserviceassetsandconfigurationitemsarerecordedin 
+theConfigurationManagementSystem
+•Overallbusinessrisk isoptimized.
+
+
+•Goals
+•Respondto thecustomer’schangingbusinessrequirementswhile 
+maximizingvalueandreducingincidents,disruptionandre-work
+•RespondtothebusinessandITrequestsforchangethatwillalignthe 
+serviceswiththebusinessneeds.
+
+
+
+•Objective
+•Toensurethatchangesarerecordedandthenevaluated,authorized, 
+prioritized,planned,tested,implemented,documentedandreviewed 
+ina controlledmanner.
+
+
+
+
+
+
+
+Changemanagement
+
+
+•Valuetobusiness
+•Prioritizingandrespondingtobusinessandcustomer changeproposals
+•Implementingchangesthatmeet thecustomers’agreedservicerequirements 
+whileoptimizing costs
+•Contributing tomeet governance,legal,contractualandregulatory 
+requirements
+•Reducingfailedchangesandthereforeservicedisruption,defectsandre-work
+•Deliveringchangepromptlytomeetbusiness timescales
+•Trackingchangesthroughtheservicelifecycleandtotheassets ofits
+
+
+
+
+
+customers
+
+•Contributingtobetterestimationsof thequality,time andcostofchange
+•Assessingtherisksassociatedwiththetransitionof services(introductionor 
+disposal)
+•Aidingproductivityofstaffthroughminimizingdisruptionsduetohighlevelsof
+
+
+
+
+unplannedor‘emergency’changeandhencemaximizingserviceavailability
+
+•Reducing the Mean Time to Restore Service (MTRS), via quicker and more 
+successfulimplementations of correctivechanges
+•Liaisingwiththebusinesschangeprocesstoidentify opportunitiesforbusiness 
+improvement.
+
+
+
+
+
+
+Changemanagement
+
+
+•Activities
+•Planningandcontrollingchanges
+•Changeandreleasescheduling
+•Communications
+•Changedecisionmakingandchangeauthorization
+•Ensuringthereareremediationplans
+•Measurementandcontrol
+•Managementreporting
+•Understandingtheimpactofchange
+•Continualimprovement.
+
+
+
+
+
+
+
+Changemanagement
+
+
+•Normalchangeprocedure
+•Createandrecordrequestsforchange
+•Reviewtherequestforchange
+•Assessandevaluatethechange
+•Authorizingthechange
+•Coordinatingchangeimplementation
+•Reviewandclosechangerecord
+
+
+
+•Changeadvisoryboard
+•a body that exists to support the authorization of changes and to 
+assistChangeManagementintheassessmentandprioritizationof 
+changes
+
+
+
+•Emergencychanges
+•reservedforchangesintendedtorepairanerrorin anITservice 
+thatis negativelyimpactingthebusinesstoa highdegree.
+
+
+
+
+
+
+
+Serviceassetandconfiguration 
+management
+
+
+•Purpose
+•Identify, control,record,report,auditandverifyserviceassetsand 
+configuration items, including versions, baselines, constituent 
+components,theirattributes,andrelationships
+•Account for, manage and protect the integrity of service assets and 
+configurationitems(and,whereappropriate,thoseofitscustomers) 
+through the service lifecycle by ensuring that only authorized 
+componentsareusedandonlyauthorizedchangesaremade
+•Protecttheintegrityofserviceassetsandconfigurationitems(and, 
+where appropriate, those of its customers) through the service 
+lifecycle
+•Ensure the integrity of the assets and configurations required to 
+control the services and IT infrastructure by establishing and 
+maintaininganaccurateandcompleteConfigurationManagement 
+System.
+
+
+
+
+
+
+
+Serviceassetandconfiguration 
+management
+
+
+•Goals:
+•Supportthebusinessandcustomer’scontrolobjectivesand
+
+
+
+
+
+requirements
+
+•SupportefficientandeffectiveServiceManagementprocessesby 
+providingaccurateconfigurationinformationtoenablepeopletomake decisionsattherighttime,e.g.toauthorizechangeandreleases, resolveincidentsandproblemsfaster.
+•Minimizethenumberofqualityandcomplianceissuescausedby 
+improperconfigurationof servicesandassets
+•Optimizetheserviceassets,ITconfigurations,capabilitiesand 
+resources.
+
+
+•Objective:
+•todefineandcontrolthecomponentsofservicesandinfrastructure 
+andmaintainaccurateconfigurationinformationonthehistorical, 
+plannedandcurrentstateofthe servicesandinfrastructure.
+
+
+
+
+
+
+
+Serviceassetandconfiguration 
+management
+
+
+•Valuetobusiness
+•Betterforecastingandplanningofchanges
+•Changesandreleasestobeassessed,plannedanddelivered 
+successfully
+•Incidentsandproblemstoberesolvedwithintheservicelevel
+
+
+
+
+
+targets
+
+•Servicelevelsandwarrantiestobedelivered
+•Betteradherencetostandards,legal and regulatoryobligations 
+(lessnon-conformances)
+•Morebusinessopportunitiesasable todemonstratecontrolof
+
+
+
+
+assetsandservices
+
+•Changestobetraceablefromrequirements
+•Theabilitytoidentifythecostsforaservice.
+
+
+
+
+
+
+Configurationitems
+
+
+•ConfigurationManagementdeliversamodelof theservices,assets 
+and the infrastructure by recording the relationships between 
+configurationitems
+•Aconfigurationitem(CI)isanasset,servicecomponentorotheritem 
+thatis,orwillbe,underthecontrolofConfigurationManagement
+•Configurationitemsmayvarywidelyin complexity,sizeandtype, 
+ranging from an entire service or system including all hardware, 
+software, documentation and support staff to a single software 
+moduleora minorhardwarecomponent
+•Configurationitemsmaybegroupedandmanagedtogether,e.g.a 
+setofcomponentsmaybegroupedintoa release
+•Configuration items should be selected using established selection 
+criteria,grouped,classifiedandidentified insuchawaythattheyare 
+manageableandtraceablethroughouttheservicelifecycle
+•Categories:servicelifecycleCIs,ServiceCIs,OrganizationCIs, 
+InternalCIs,ExternalCIs,InterfaceCIs.
+
+
+
+
+Configurationmanagementsystem
+
+
+•TomanagelargeandcomplexITservicesandinfrastructures, 
+ServiceAssetandConfigurationManagementrequirestheuse 
+of asupportingsystemknownastheConfiguration 
+ManagementSystem(CMS)
+•Asecurelibraryisacollectionofsoftware,electronicor 
+documentCIsofknown typeandstatus
+•AsecurestoreisalocationthatwarehousesITassets
+•TheDefinitiveMediaLibrary(DML)isthesecurelibraryin 
+whichthedefinitiveauthorizedversionsofall mediaCIsare 
+storedandprotected
+•Aconfigurationbaseline istheconfigurationofaservice, 
+productorinfrastructurethathasbeenformallyreviewedand 
+agreedon,thatthereafterservesasthebasisforfurther 
+activitiesandthatcanbechangedonlythroughformalchange 
+procedures.
+
+
+
+
+Image result for any questions
+
