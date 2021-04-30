@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -12,9 +13,10 @@
             -moz-border-radius: 5px;
             border-radius: 5px;
         }
-     </style>
+
+    </style>
     <title>あなたのレベルにあった英単語帳をコンピューターがおすすめ</title>
-    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="shortcut icon" href="{% static 'te_app1/favicon.ico' %}">
 </head>
 
 <body bgcolor="#99ff99">

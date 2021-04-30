@@ -1,14 +1,21 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse
+from .models import Snippet
 import os.path
 import nltk
 import gc
+
+
+def snippet_detail(request, slug):
+    snippet = get_object_or_404(Snippet, slug=slug)
+    return HttpResponse(f'This should be the detail views for the slug of {slug}')
 
 
 def index(request):
     return render(request, 'te_app1/inptext.html')
 
 
-def home(request):
+def output(request):
     # 文章の読み込み
     #with open('ICT429w2.txt', 'r') as f:
         #data = f.read()
@@ -95,8 +102,6 @@ def home(request):
     # 各単語帳に対象単語が含まれているか
     system_match = [wd for wd in sample_system if wd in target]
     system_num = len(system_match)
-    system_unmatch = []
-    system_unmatch = list(set(target) - set(system_match))
     core_match = [wd for wd in sample_core if wd in target]
     core_num = len(core_match)
     soku_match = [wd for wd in sample_soku if wd in target]
@@ -106,6 +111,7 @@ def home(request):
     # 収録率の比較
     if num == 0:
         result = "対象の単語はありませんでした。"
+        url_ama = "https://www.teiantango.com"
         return render(request, 'te_app1/result.html', {'result': result})
     else:
 
@@ -130,10 +136,11 @@ def home(request):
 
         if numofmatch == 0:
             result = "対象の単語はありませんでした。"
+            url_ama = "https://www.teiantango.com"
             return render(request, 'te_app1/result.html', {'result': result})
         else:
             result = "で、対象の文章の単語を{}個中、{:.1f}%({}語)含んでいます。".format(num, numofmatch / num * 100, numofmatch)
 
-            return render(request,'te_app1/result.html',
+            return render(request, 'te_app1/result.html',
                           {'result_book': result_book, 'result': result, 'url_ama': url_ama})
 

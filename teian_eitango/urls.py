@@ -15,12 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from te_app1 import views
+from django.contrib.sitemaps.views import sitemap
+from te_app1.sitemaps import StaticViewSitemap, SnippetSitemap
+
+sitemaps = {
+    'static': StaticViewSitemap,
+    'snippet': SnippetSitemap,
+}
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
-    path('home', views.home, name='home'),
-
+    path('', include('te_app1.urls')),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
 ]
