@@ -112,7 +112,7 @@ def output(request):
     if num == 0:
         result = "対象の単語はありませんでした。"
         url_ama = "https://www.teiantango.com"
-        return render(request, 'te_app1/result.html', {'result': result})
+        return render(request, 'te_app1/result.html', {'result': result, 'url_ama': url_ama})
     else:
 
         if system_num >= core_num and system_num >= soku_num:
@@ -137,7 +137,7 @@ def output(request):
         if numofmatch == 0:
             result = "対象の単語はありませんでした。"
             url_ama = "https://www.teiantango.com"
-            return render(request, 'te_app1/result.html', {'result': result})
+            return render(request, 'te_app1/result.html', {'result': result, 'url_ama': url_ama})
         else:
             result = "で、対象の文章の単語を{}個中、{:.1f}%({}語)含んでいます。".format(num, numofmatch / num * 100, numofmatch)
 
