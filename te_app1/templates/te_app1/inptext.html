@@ -3,7 +3,7 @@
 
 {% block content %}
     <h1>あなたに最も合う英単語帳をコンピューターがおすすめします！</h1>
-    <a> 数字、固有名詞、中学生レベルの単語を取り除いたうえで、検索します。</a>
+    <p> 数字、固有名詞、中学生レベルの単語を取り除いたうえで、検索します。</p>
     <form action="output" method="POST" id="usrform">
         {% csrf_token %}
         <textarea name="textdata" form="usrform" rows="20" cols="70" placeholder="わからない単語を含む英文を入力してください..."></textarea>
